@@ -1,0 +1,20 @@
+[project]
+name = "mark-agent"
+version = "0.1.0"
+description = "Add your description here"
+authors = [
+    { name = "akshay-8490", email = "akshay02.abhiraj@gmail.com" }
+]
+    requires-python = ">=3.13"
+dependencies = [
+    "a2a-sdk==0.3.0",
+    "crewai[litellm]>=1.15.20",
+    "python-dotenv>=1.2.3",
+]
+
+[project.scripts]
+mark-agent = "mark_agent:main"
+
+[build-system]
+requires = ["uv_build>=0.12.10,<0.13.0"]
+build-backend = "uv_build"
