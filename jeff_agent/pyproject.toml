@@ -1,0 +1,28 @@
+[project]
+name = "jeff-agent"
+version = "0.1.0"
+description = "Add your description here"
+authors = [
+    { name = "akshay-8490", email = "akshay02.abhiraj@gmail.com" }
+]
+    requires-python = ">=3.13"
+dependencies = [
+    "a2a-sdk[http-server]==0.3.0",
+    "dotenv>=0.9.9",
+    "httpx>=0.28.1",
+    "langchain>=1.4.0",
+    "langchain-core>=1.6.2",
+    "langchain-groq>=0.3.0",
+    "langgraph>=1.2.11",
+    "python-dotenv>=1.2.3",
+    "sse-starlette>=3.4.10",
+    "starlette>=1.6.0",
+    "uvicorn>=0.52.4",
+]
+
+[project.scripts]
+jeff-agent = "jeff_agent:main"
+
+[build-system]
+requires = ["uv_build>=0.12.10,<0.13.0"]
+build-backend = "uv_build"
