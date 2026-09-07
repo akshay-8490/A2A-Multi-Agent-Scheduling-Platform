@@ -4,11 +4,7 @@
   <img src="./goal.png" alt="A2A Multi-Agent Architecture" width="600">
 </div>
 
-> 📐 **Architecture Diagram**: See [`architecture.png`](./architecture.png) for the visual architecture diagram of the multi-agent system.
-
 A multi-agent system demonstrating Agent-to-Agent (A2A) communication using Google's A2A SDK. The project simulates a real-world scenario where multiple AI agents coordinate autonomously to schedule badminton games.
-
-▶️ **YouTube Demo**: https://www.youtube.com/watch?v=v7F2tr-UiIc
 
 ## 🎯 Project Goal
 
@@ -31,6 +27,10 @@ This mimics how human assistants would coordinate — each agent manages its own
 ---
 
 ## 🏗️ Architecture
+
+<div align="center">
+  <img src="./architecture.png" alt="A2A Multi-Agent Architecture" width="600">
+</div>
 
 ### Agent Overview
 
@@ -227,7 +227,6 @@ A2A-Project/
 ├── .env                          # Environment variables (GROQ_API_KEY)
 ├── .python-version               # Python version (3.13.2)
 ├── README.md                     # Project documentation
-├── README1.md                    # Reference format guide
 ├── architecture.png              # Multi-agent architecture visual diagram
 ├── goal.png                      # Project goal diagram
 ├── src/                          # Root package placeholder
